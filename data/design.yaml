@@ -35,8 +35,8 @@ home_sections:
   intro_align_text: has-text-left
   intro_background_color: "#FFFFFF"
   intro_add_button:
-    button_label: ''
-    intro_button_link: ''
+    button_label: Read More
+    intro_button_link: "/about"
     intro_open_in_a_new_tab: false
     intro_button_background_color: "#464646"
     intro_button_text_color: "#E2E2E2"
