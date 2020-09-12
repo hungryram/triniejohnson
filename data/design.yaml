@@ -60,7 +60,8 @@ sub_pages:
   sub_page_image: "/uploads/luxkitchen.jpg"
 footer:
   footer_background: "#000000"
-  footer_bio: ''
+  footer_bio: In San Antonio and South Texas, home buyers and sellers alike have come
+    to know REALTOR® Trinie Ortiz Johnson as "The one who does it right."
   disable_background_color: true
   footer_background_image: "/uploads/whiteinterior.jpg"
   enable_black_text: false
