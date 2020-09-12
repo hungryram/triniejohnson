@@ -12,11 +12,11 @@ main_image:
   hero_title: 1st Independence Realty
   align_hero_text: has-text-centered
   add_a_button:
-    hero_button_text: VIEW LISTINGS
+    hero_button_text: Get in touch
     hero_button_link: https://1stindependencerealty.idxhome.com/featured/148201
     open_in_new_tab: false
-    hero_button_text_color: "#000000"
-    hero_button_bg_color: "#ffffff"
+    hero_button_text_color: "#FFFFFF"
+    hero_button_bg_color: "#7B0303"
   add_mp4_link: https://hungryram.s3-us-west-1.amazonaws.com/ocean.mp4
   add_youtube_background_video: false
 home_sections:
