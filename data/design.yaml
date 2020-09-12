@@ -13,7 +13,7 @@ main_image:
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: VIEW LISTINGS
-    hero_button_link: https://anitatherealtor.idxhome.com/featured/134221
+    hero_button_link: https://1stindependencerealty.idxhome.com/featured/148201
     open_in_new_tab: false
     hero_button_text_color: "#000000"
     hero_button_bg_color: "#ffffff"
@@ -46,15 +46,15 @@ home_sections:
   top_left_tile:
     top_left_featured_image: "/uploads/whitecounter.jpg"
     top_left_featured_title: Advanced Search
-    top_left_link_to_property: https://anitatherealtor.idxhome.com/listing/search/advanced/134221/306?location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on
+    top_left_link_to_property: https://1stindependencerealty.idxhome.com/listing/search/advanced/148201/306?location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on
   bottom_left_tile:
     featured_title: Mortgage Calculator
     featured_image: "/uploads/luxkitchen.jpg"
-    bottom_left_link_to_property: https://anitatherealtor.idxhome.com/mortcalc/134221
+    bottom_left_link_to_property: https://1stindependencerealty.idxhome.com/mortcalc/148201
   right_tile:
     featured_title: Contact Me
     featured_image: "/uploads/colfax-coldwell-banker-the-real-estate-group.jpg"
-    right_link_to_property: https://anitatherealtor.com/contact
+    right_link_to_property: https://1stindependencerealty.com/contact
   tile_background_color: ''
 sub_pages:
   sub_page_image: "/uploads/luxkitchen.jpg"
