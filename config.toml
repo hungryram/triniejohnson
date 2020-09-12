@@ -5,26 +5,26 @@ enableRobotsTXT = "true"
 [[menu.main]]
 name = "Advanced Search"
 parent = "Property Search"
-url = "https://anitatherealtor.idxhome.com/listing/search/advanced/134221/306?location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
+url = "https://1stindependencerealty.idxhome.com/listing/search/advanced/148201/306?location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
 weight = 2
 [[menu.main]]
 name = "Mortgage Calculator"
 parent = "Buyers & Sellers"
-url = "https://anitatherealtor.idxhome.com/mortcalc/134221"
+url = "https://1stindependencerealty.idxhome.com/mortcalc/148201"
 weight = 2
 [[menu.main]]
 name = "Property Organizer"
 parent = "Buyers & Sellers"
-url = "https://anitatherealtor.idxhome.com/organizer/login/134221"
+url = "https://1stindependencerealty.idxhome.com/organizer/login/148201"
 weight = 1
 [[menu.main]]
 name = "Search"
 parent = "Property Search"
-url = "https://anitatherealtor.idxhome.com/homesearch/134221"
+url = "https://1stindependencerealty.idxhome.com/homesearch/148201"
 weight = 1
 [[menu.main]]
 name = "Featured Listings"
-url = "https://anitatherealtor.idxhome.com/featured/134221"
+url = "https://1stindependencerealty.idxhome.com/featured/148201"
 weight = 2
 [[menu.main]]
 name = "Contact"
