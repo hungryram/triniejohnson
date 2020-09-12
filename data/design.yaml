@@ -1,15 +1,15 @@
 ---
 logo_or_title:
-  upload_logo: "/uploads/c21garlandlogo2.png"
-  title: Century 21 Garland Realty
-  favicon: "/uploads/favi.png"
+  upload_logo: "/uploads/1st-independence.png"
+  title: 1st Independence Realty
+  favicon: "/uploads/favicon.png"
 main_image:
-  hero_subtitle: Your Realtor in Orange County and Riverside County Area
+  hero_subtitle: Trinie Ortiz Johnson Multi-Million Dollar Producer
   home_background_image: "/uploads/shutterstock_683283169.jpg"
   video_background: true
   upload_video: ''
   add_url_to_youtube_video: pY2CWYxUbrM
-  hero_title: ANITA THE REALTOR
+  hero_title: 1st Independence Realty
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: VIEW LISTINGS
@@ -63,12 +63,12 @@ footer:
   footer_background_image: "/uploads/whiteinterior.jpg"
   enable_black_text: false
 colors:
-  text_link_colors: rgb(169, 140, 83)
-  button_background_colors: "#A98C53"
+  text_link_colors: rgb(164, 0, 0)
+  button_background_colors: "#A40000"
   header_background_color: "#FFFFFF"
   navigation_link_color: "#BA0000"
   enable_black_menu_items: true
-  top_bar_background: "#333333"
+  top_bar_background: "#A40000"
   top_bar_enable_black_text_color: false
 upload_image: ''
 slideshow:
