@@ -35,8 +35,8 @@ home_sections:
   intro_align_text: has-text-left
   intro_background_color: "#FFFFFF"
   intro_add_button:
-    button_label: ''
-    intro_button_link: ''
+    button_label: Read More
+    intro_button_link: "/about"
     intro_open_in_a_new_tab: false
     intro_button_background_color: "#464646"
     intro_button_text_color: "#E2E2E2"
@@ -60,7 +60,8 @@ sub_pages:
   sub_page_image: "/uploads/luxkitchen.jpg"
 footer:
   footer_background: "#000000"
-  footer_bio: ''
+  footer_bio: In San Antonio and South Texas, home buyers and sellers alike have come
+    to know REALTOR® Trinie Ortiz Johnson as "The one who does it right."
   disable_background_color: true
   footer_background_image: "/uploads/whiteinterior.jpg"
   enable_black_text: false
