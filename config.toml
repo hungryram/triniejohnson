@@ -1,0 +1,45 @@
+baseURL = "https://anitatherealtor.com/"
+languageCode = "en-us"
+summarylength = 20
+enableRobotsTXT = "true"
+[[menu.main]]
+name = "Advanced Search"
+parent = "Property Search"
+url = "https://anitatherealtor.idxhome.com/listing/search/advanced/134221/306?location=&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
+weight = 2
+[[menu.main]]
+name = "Mortgage Calculator"
+parent = "Buyers & Sellers"
+url = "https://anitatherealtor.idxhome.com/mortcalc/134221"
+weight = 2
+[[menu.main]]
+name = "Property Organizer"
+parent = "Buyers & Sellers"
+url = "https://anitatherealtor.idxhome.com/organizer/login/134221"
+weight = 1
+[[menu.main]]
+name = "Search"
+parent = "Property Search"
+url = "https://anitatherealtor.idxhome.com/homesearch/134221"
+weight = 1
+[[menu.main]]
+name = "Featured Listings"
+url = "https://anitatherealtor.idxhome.com/featured/134221"
+weight = 2
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 5
+[[menu.main]]
+name = "Buyers & Sellers"
+weight = 4
+[[menu.main]]
+name = "Property Search"
+weight = 3
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[taxonomies]
+category = "categories"
+tag = "tags"

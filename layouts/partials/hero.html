@@ -1,0 +1,57 @@
+<section class="hero is-fullheight hero__container">
+    <!-- Hero head: will stick at the top -->
+{{ partial "navbar.html" . }}
+
+    <!-- Enable MP4 Video Background -->
+    {{ if .Site.Data.design.main_image.video_background }}
+      <div class="video-container">
+        <video playsinline autoplay loop muted id="bgvid">
+            <source src="{{ .Site.Data.design.main_image.add_mp4_link }}" type="video/mp4">
+        </video>
+    </div>
+    {{end}}
+
+    {{ if .Site.Data.design.main_image.add_youtube_background_video }}
+    <div class="youtube-container">
+    <iframe id="ytplayer-box" type="text/html" width="720" height="405"
+    src="https://www.youtube.com/embed/{{ .Site.Data.design.main_image.add_url_to_youtube_video }}?autoplay=1&mute=1&controls=0&disablekb=1&fs=0&loop=1&rel=0&playlist={{ .Site.Data.design.main_image.add_url_to_youtube_video }}"
+    frameborder="0" allowfullscreen></iframe>
+    </div>
+    {{ end }}
+
+<div class="black-overlay">
+</div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      {{ with .Site.Data.design.main_image.align_hero_text }}
+        <div class="container {{ . }}">
+          {{end}}
+            <h1 class="hero-title title is-1">{{ .Site.Data.design.main_image.hero_title }}</h1>
+            <h2 class="subtitle">{{ .Site.Data.design.main_image.hero_subtitle }}</h2>
+
+            {{ if gt ( len .Site.Data.design.main_image.add_a_button.hero_button_text ) 0 }}
+                <a href="{{ .Site.Data.design.main_image.add_a_button.hero_button_link }}" style="{{ safeHTMLAttr (printf "background-color: %s" .Site.Data.design.main_image.add_a_button.hero_button_bg_color ) }};{{ safeHTMLAttr (printf "color: %s" .Site.Data.design.main_image.add_a_button.hero_button_text_color ) }}" class="button hero-button" {{ if .Site.Data.design.main_image.add_a_button.open_in_new_tab }}target="_blank"{{end}} >{{ .Site.Data.design.main_image.add_a_button.hero_button_text }}</a>
+            {{end}}
+            
+        </div>
+    </div>
+
+  
+     <!-- Hero footer: will stick at the bottom -->
+{{ if .Site.Data.idx.enable_home_quick_search }}
+  <div class="hero-foot">
+      <div class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <script type="text/javascript" src="https://www.idxhome.com/site/listing/search/widget/{{ $.Site.Data.idx.idx_id }}?style=horizontal"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+{{ end }}
+  
+  </section>
+

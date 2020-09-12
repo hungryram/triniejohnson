@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{ partial "seo.html" . }}
+{{ if $.IsHome }}
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/css/ihf_style.css">
+{{ end }}
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2dac2bfc0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.8/slick-lightbox.css"/>
+    <link rel="shortcut icon" href="{{ .Site.Data.design.logo_or_title.favicon }}" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141651762-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-141651762-1');
+</script>
+
+</head>
+<body>

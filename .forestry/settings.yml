@@ -1,0 +1,87 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: "/static/admin"
+webhook_url: 
+sections:
+- type: heading
+  label: My Website
+- type: document
+  path: data/profile.yaml
+  label: My Profile
+- type: document
+  path: data/design.yaml
+  label: Design
+- type: heading
+  label: Default Pages
+- type: document
+  path: content/contact/_index.md
+  label: Contact
+- type: directory
+  path: content/teams
+  label: Teams
+  create: documents
+  match: "**/*"
+  templates:
+  - team
+- type: directory
+  path: content/offices
+  label: Offices
+  create: documents
+  match: "**/*"
+  templates:
+  - offices
+- type: directory
+  path: content/partners
+  label: Preferred Partners
+  create: documents
+  match: "**/*"
+  templates:
+  - partners
+- type: directory
+  path: content/testimonials
+  label: Testimonials
+  create: documents
+  match: "**/*"
+  templates:
+  - testimonials
+- type: heading
+  label: Website Pages
+- type: directory
+  path: content
+  label: Add/View Pages
+  create: documents
+  match: "*"
+- type: heading
+  label: Blog
+- type: directory
+  path: content/blog
+  label: Add/View Posts
+  create: documents
+  match: "**/*"
+  templates:
+  - blog
+- type: heading
+  label: IDX Configuration
+- type: document
+  path: data/idx.yaml
+  label: Set Up
+- type: document
+  path: config.toml
+  label: Developers Only
+upload_dir: static/uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: 
+file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.69.0
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
+    -d public
+version: 0.69.0

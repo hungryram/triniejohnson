@@ -1,0 +1,162 @@
+{{ partial "head.html" . }}
+{{ partial "slideshow.html" . }}
+
+    {{ range .Site.Data.design.home_sections }}
+
+        {{/*  Intro  */}}
+        {{ if eq "intro" .template }}
+            {{ partial "intro" . }}
+        {{ end }}
+
+        {{ if eq "featured-tiles" .template }}
+            {{ partial "featured-tiles" . }}
+        {{ end }}
+
+        {{ if eq "cta" .template }}
+        {{ partial "cta" . }}
+        {{ end }}
+
+        {{ if eq "idx-search-bar" .template }}
+            <div class="section" style="{{ safeHTMLAttr (printf "background-color: %s" .idx_background_color) }}">
+                <div class="container">
+                    <div class="columns has-text-centered">
+                        <div class="column">
+                            <h1 class="title {{ if .idx_enable_white_text_color }}has-text-white{{ end }}">{{ .idx_title }}</h1>
+                            <h4 class="{{ if .idx_enable_white_text_color }}has-text-white{{ end }}">{{ .subtitle }}</h4>
+                        </div>
+                    </div>
+                    <div class="columns">
+                        <div class="column">
+                            <script type="text/javascript" src="https://www.idxhome.com/site/listing/search/widget/{{ $.Site.Data.idx.idx_id }}?style=horizontal"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+
+        {{ if eq "idx-listings" .template }}
+        <div class="section">
+            <div class="container">
+                <div class="columns has-text-centered">
+                    <div class="column is-half is-offset-one-quarter content">
+                        <h1 class="title is-3">Our Featured Listings</h1>
+                        <p>Featured listings are updated hourly from the California Regional Multiple Listing Service. Need more information on some properties? Let's get in touch. <a href="https://anitatherealtor.idxhome.com/organizer/login/134221">Register</a> for an account to receive alerts for new listings that match your search criteria</p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <script type="text/javascript" src="https://www.idxhome.com/site/listing/gallery/slider/{{ $.Site.Data.idx.idx_id }}?columns=3&rows=2&effect=fade&auto=false"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+
+        {{/*  BLOG  */}}
+        {{ if eq "featured-blog" .template }}
+        <section class="section home-featured-sections home-featured-blog" style="{{ safeHTMLAttr (printf "background-color: %s" .blog_background) }}">
+            <div class="container">
+                <!-- Start Carousel -->
+                <div class="columns">
+                    <div {{ if .blog_align_title_text }} class="column {{ .blog_align_title_text }} "{{ end }}>
+                        <h1 class="title {{ if .blog_enable_white_text_color }}has-text-white{{ end }}">{{ .blog_title }}</h1>
+                        <h4 class="{{ if .blog_enable_white_text_color }}has-text-white{{ end }}">{{ .blog_subtitle }}</h4>
+                    </div>
+                </div>
+                <div class="responsive-slide">
+                {{ range first 6 (where $.Site.RegularPages "Type" "blog") }}
+
+                    <div class="column">
+                        <div class="home-card card">
+                            <div class="card-image">
+                                {{ if .Params.featured_image}}
+                              <figure class="image is-16by9">
+                                <img src="{{ .Params.featured_image }}" alt="Featured blog image" style="object-fit: cover;">
+                              </figure>
+                              {{ else }}
+                              <figure class="image is-16by9">
+                                <img src="http://www.hungryram.com/uploads/nophotohouse.jpg" alt="Featured blog image" style="object-fit: cover;">
+                              </figure>
+                              {{ end }}
+                            </div>
+                            <div class="card-content content home-blog-content">
+                              <div class="media-content">
+                                <h3 class="has-text-black">{{ .Title }}</h3>
+                              </div> 
+                              <div class="content">
+                            <time><small><i class="far fa-calendar-alt"></i> {{.Date.Format "Jan 2, 2006" }}</small></time><br>
+                                <a href="{{ .Permalink }}" class="secondary-btn">Continue Reading</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                {{ end }}
+                </div>
+                <div class="column" align="center"><a class="button main-btn" href="/blog/">View All</a></div>
+            </div>
+        </section>
+        {{ end }}
+
+        {{/*  AGENT SLIDER  */}}
+        {{ if eq "agent-slider" .template }}
+        <section class="section home-featured-sections" style="{{ safeHTMLAttr (printf "background-color: %s" .agent_background) }}">
+            <div class="container">
+                <!-- Start Carousel -->
+                <div class="columns {{ with .agent_text_align }}{{ . }}{{end}}">
+                    <div class="column">                     
+                        <h1 class="title">{{ .agent_title }}</h1>
+                        <h4>{{ .agent_subtitle }}</h4>
+                    </div>
+                </div>
+                <div class="responsive-slide">
+                    {{ range first 20 (where $.Site.RegularPages "Type" "teams") }}
+                    <div class="agent-slider box" style="height: 450px;">
+                                <img src="{{ .Params.details.agent_photo }}" alt="" style="object-fit: cover;height:200px;width:200px;border-radius:50%;margin: 0 auto;">
+                            <h4 class="subtitle is-5" style="margin-top:20px">{{ .Title }}</h4>
+                            <h5 class="subtitle is-6" style="margin:0">{{ .Params.details.title }}</h5>
+                            <a href="tel:{{ .Params.contact.phone }}">{{ .Params.contact.phone }}</a><br>
+                            <a href="mailto:{{ .Params.contact.email }}">{{ .Params.contact.email }}</a><br>
+                            <a href="{{ .Permalink }}" class="secondary-btn">More Details</a>
+                    </div>
+                    {{ end }}
+                </div>
+                <!-- End Carousel -->
+                <div class="column" align="center"><a class="button main-btn" href="/teams">View All</a></div>
+            </div>
+        </section>
+    {{ end }}
+
+    {{/*  TESTIMONIAL SLIDER  */}}
+    {{ if eq "testimonial-slider" .template }}
+    <section class="section home-featured-sections">
+        <div class="container">
+            <!-- Start Carousel -->
+            <div class="columns has-text-centered">
+                <div class="column">
+                    <h1 class="title">{{ .testimonial_slider_title }}</h1>
+                    <h4>{{ .testimonial_slider_subtitle }}</h4>
+                </div>
+            </div>
+            <div class="responsive-testimonial-slide">
+                {{ range first 20 (where $.Site.RegularPages "Type" "testimonials") }}
+
+                    <div class="testimonials-slider">
+                                {{ if.Params.photo }}<img src="{{ .Params.photo }}" alt="" style="object-fit: cover;height:100px;width:100px;border-radius:50%;margin: 20px auto;" alt="{{ .Site.BaseURL }} reviews">
+                                {{ end }}
+                            <p class="content">{{ .Summary }} <em><a href="{{ .Permalink }}" class="secondary-btn">Read More</a></em></p>
+                            
+                            <em>{{ .Title }}</em><br>
+                            <em>{{ .Params.occupation }}</em><br><br>
+                    </div>
+                {{ end }}
+            </div>
+            <!-- End Carousel -->
+            <div class="column" align="center"><a class="button main-btn" href="/testimonials">View All</a></div>
+        </div>
+    </section>
+    {{ end }}
+
+    {{ end }}
+
+{{ partial "footer.html" . }}

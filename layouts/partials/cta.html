@@ -1,0 +1,25 @@
+  
+{{ $ctaOne := .call_to_action_one }}
+{{ $ctaTwo := .call_to_action_two }}
+{{ $ctaThree := .call_to_action_three }}
+<div class="section">
+  <div class="container">
+    <div class="columns has-text-centered is-vcentered cta-wrapper">
+      <div class="column">
+        <div class="cta-box-one" style="background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url({{ $ctaOne.image_one_cta }});background-size:cover">
+          {{ if $ctaOne.title_one_cta }}<a href="{{ $ctaOne.cta_one_add_a_link }}">{{ $ctaOne.title_one_cta }}</a>{{ end }}
+        </div>
+      </div>
+      <div class="column">
+        <div class="cta-box-two" style="background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url({{ $ctaTwo.image_two_cta }});background-size:cover">
+          {{ if $ctaTwo.title_two_cta }}<a href="{{ $ctaTwo.cta_two_add_a_link }}">{{ $ctaTwo.title_two_cta }}</a>{{ end }}
+        </div>
+      </div>
+      <div class="column">
+        <div class="cta-box-three" style="background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url({{ $ctaThree.image_three_cta }});background-size:cover">
+        {{ if $ctaThree.title_three_cta }}<a href="{{ $ctaThree.cta_three_add_a_link }}">{{ $ctaThree.title_three_cta }}</a>{{ end }}
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
