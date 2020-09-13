@@ -13,7 +13,7 @@ main_image:
   align_hero_text: has-text-centered
   add_a_button:
     hero_button_text: Get in touch
-    hero_button_link: https://1stindependencerealty.idxhome.com/featured/148201
+    hero_button_link: "/contact"
     open_in_new_tab: false
     hero_button_text_color: "#FFFFFF"
     hero_button_bg_color: "#7B0303"
@@ -54,7 +54,7 @@ home_sections:
   right_tile:
     featured_title: Contact Me
     featured_image: "/uploads/colfax-coldwell-banker-the-real-estate-group.jpg"
-    right_link_to_property: /contact
+    right_link_to_property: "/contact"
   tile_background_color: ''
 sub_pages:
   sub_page_image: "/uploads/shutterstock_1612432753.jpg"
