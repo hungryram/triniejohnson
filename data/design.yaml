@@ -54,7 +54,7 @@ home_sections:
   right_tile:
     featured_title: Contact Me
     featured_image: "/uploads/colfax-coldwell-banker-the-real-estate-group.jpg"
-    right_link_to_property: https://1stindependencerealty.com/contact
+    right_link_to_property: /contact
   tile_background_color: ''
 sub_pages:
   sub_page_image: "/uploads/luxkitchen.jpg"
