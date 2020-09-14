@@ -76,4 +76,5 @@ fields:
   template: url
   label: URL
 pages:
+- content/testimonials/anonymous.md
 - content/testimonials/ms.onnie-t.devesa.md
