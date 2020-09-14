@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+
+<div class="section agent-lists">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          {{ partial "breadcrumbs.html" . }}
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-4">Testimonial by {{ .Title }}</h2>
+        </div>
+      </div>
+        <div class="columns">
+            <div class="column is-8">
+                <div class="box">
+                  <div class="columns">
+                    <div class="column is-4 has-text-centered">
+                      <figure class="image">
+                        {{ if .Params.photo }}
+                        <img src="{{ .Params.photo }}" alt="{{ .Title }} review" style="object-fit: cover;height:200px;width:200px;border-radius:50%;margin: 0 auto;">
+                        {{else }}
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler icon-tabler-user" width="60" height="60" viewBox="0 0 24 24" stroke-width="1" stroke="#607D8B" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z"/>
+                          <circle cx="12" cy="7" r="4" />
+                          <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                        </svg>                        {{end}}
+                    </figure>
+                    </div>
+                    <div class="column quote-testimonial">
+
+                        {{ if gt ( len .Content )  0 }}
+                            <p>{{ .Content }}</p><br>
+                        {{end}}
+                        
+                        {{ if gt ( len .Params.title )  0 }}
+                            <strong><em>{{ .Params.title }}</em></strong><br>
+                        {{end}}
+                        
+                        {{ if gt ( len .Params.occupation )  0 }}
+                            <em>{{ .Params.occupation }}</em><br>
+                        {{end}}
+        
+                        <em>{{.Date.Format "Jan 2, 2006" }}</em><br>
+        
+                        {{ if gt ( len .Params.source_link )  0 }}
+                            {{ if gt ( len .Params.source_label )  0 }}
+                                <a href="{{ .Params.source_link }}" target="_blank">{{.Params.source_label  }}</a><br>
+                            {{end}}
+                        {{end}}
+        
+                        {{ if gt ( len .Params.external_link )  0 }}
+                            {{ if gt ( len .Params.link_label )  0 }}
+                                <a href="{{ .Params.external_link }}" target="_blank">{{.Params.link_label  }}</a><br>
+                            {{end}}
+                        {{end}}
+                            </div>
+                  </div>
+                </div>
+
+            </div>
+            {{ partial "sidebar.html" . }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

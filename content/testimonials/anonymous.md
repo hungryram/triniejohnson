@@ -1,5 +1,5 @@
 +++
-date_published = 2018-03-05T00:00:00Z
+date = 2018-03-05T00:00:00Z
 external_link = ""
 link_label = ""
 occupation = ""
