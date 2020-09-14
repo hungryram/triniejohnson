@@ -272,7 +272,7 @@ a.button.hero-button {
 
 .pagination li a {
     transition: all .3s ease;
-    color: #00aeff;
+    color: #7B0303;
 }
 
 .pagination li:hover a {
@@ -296,7 +296,7 @@ li.page-item {
 }
 
 li.active a {
-    background: #00aeff;
+    background: #7B0303;
     color: #ffffff;
 }
 
