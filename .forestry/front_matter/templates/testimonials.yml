@@ -28,16 +28,6 @@ fields:
   config:
     maxSize: 1
   label: Photo
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: false
-    date_format: MM/DD/YYYY
-    time_format: 
-    display_utc: false
-    export_format: MM/DD/YYYY
 - name: source_link
   type: text
   config:
