@@ -1,5 +1,6 @@
 +++
-date = "10/17/2017"
+date = "10/18/2017"
+date_published = "10/19/2017"
 external_link = ""
 link_label = ""
 occupation = ""
