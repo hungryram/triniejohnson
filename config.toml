@@ -1,7 +1,11 @@
 baseURL = "https://triniejohnson.netlify.app/"
+enableRobotsTXT = "true"
 languageCode = "en-us"
 summarylength = 20
-enableRobotsTXT = "true"
+[[menu.main]]
+name = "Testimonials"
+url = "/testimonials"
+weight = 5
 [[menu.main]]
 name = "Advanced Search"
 parent = "Property Search"
@@ -13,33 +17,33 @@ parent = "Buyers & Sellers"
 url = "https://1stindependencerealty.idxhome.com/mortcalc/148201"
 weight = 2
 [[menu.main]]
-name = "Property Organizer"
-parent = "Buyers & Sellers"
-url = "https://1stindependencerealty.idxhome.com/organizer/login/148201"
-weight = 1
-[[menu.main]]
 name = "Search"
 parent = "Property Search"
 url = "https://1stindependencerealty.idxhome.com/homesearch/148201"
+weight = 1
+[[menu.main]]
+name = "Property Organizer"
+parent = "Buyers & Sellers"
+url = "https://1stindependencerealty.idxhome.com/organizer/login/148201"
 weight = 1
 [[menu.main]]
 name = "Featured Listings"
 url = "https://1stindependencerealty.idxhome.com/featured/148201"
 weight = 2
 [[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 5
-[[menu.main]]
-name = "Buyers & Sellers"
-weight = 4
+name = "Home"
+url = "/"
+weight = 1
 [[menu.main]]
 name = "Property Search"
 weight = 3
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+name = "Buyers & Sellers"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 6
 [taxonomies]
 category = "categories"
 tag = "tags"
