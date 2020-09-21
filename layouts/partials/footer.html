@@ -14,6 +14,8 @@
         </a>
         <p>{{ .Site.Data.design.footer.footer_bio }}</p>
         <em>{{ .Site.Data.profile.primary_contact.license_type }} {{ .Site.Data.profile.primary_contact.license_number }}</em><br>
+        <a href="uploads/TREC-Consumer-Protection-Notice.pdf" target="_blank" class="has-text-white">Texas Real Estate Commission Consumer Protection Notice</a><br>
+        <a href="uploads/TREC-Consumer-Protection-Notice.pdf" target="_blank" class="has-text-white">Texas Real Estate Commission Information About Brokerage Service</a>
       </div>
       <div class="column">
         <h4 class="subtitle is-6" {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>Contact</h4>
@@ -76,7 +78,37 @@
       </div>
       <div class="column">
         <h4 class="subtitle is-6" {{ if .Site.Data.design.footer.enable_black_text}}style="color:black"{{else}} style="color:white"{{end}}>Send a Message</h4>
-        
+        {{ if .Site.Data.idx.enable_idx }}
+        <form id="ihf-contact-request-form" data-ihf-event="contact-form-submit" action="https://1stindependencerealty.idxhome.com/contact/{{ .Site.Data.idx.idx_id }}" method="POST" data-ihf-event-bound="true">
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <p class="control is-expanded">
+                  <input class="input" type="text" placeholder="Name" name="contactName">
+                </p>
+              </div>
+              <div class="field">
+                <p class="control">
+                  <input class="input" type="text" placeholder="Email" name="email">
+                </p>
+              </div>
+              <div class="field">
+                <p class="control">
+                  <input class="input" type="text" placeholder="Phone" name="phone">
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+                <textarea id="message" placeholder="Message" name="message" class="textarea" style="height: 140px;" rows="3"> </textarea>
+            </div>
+          </div>
+          <div class="control">
+            <button class="button" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">Submit</button>
+          </div>
+        </form>
+        {{ else }}
         <form name="Contact Footer Form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <input name="bot-field" type="hidden"/>
           <div class="field is-horizontal">
@@ -114,6 +146,7 @@
             <button class="button" style="{{ safeHTMLAttr (printf "background-color: %s" $.Site.Data.design.colors.button_background_colors) }}">Submit</button>
           </div>
         </form>
+        {{ end }}
       </div>
     </div>
   </div>
