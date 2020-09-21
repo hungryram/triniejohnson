@@ -2,6 +2,9 @@
 label: IDX Config
 hide_body: true
 fields:
+- name: enable_idx
+  type: boolean
+  label: Enable IDX
 - name: idx_id
   type: number
   description: Please contact the developer to configure your IDX.<br>Depending on
