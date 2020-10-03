@@ -25,18 +25,17 @@ home_sections:
   text: ''
 - template: intro
   intro_title: Trinie Ortiz Johnson
-  intro_body: "Trinie has over 18 years in the Construction Industry working utilizing
-    Administration skills as well as Customer Service, Accounting, Marketing, and
-    Management. She's a graduate of UTSA and holds a B.A. in Finance. \n\nHer transition
-    to Real Estate was long overdue 8 years ago as she always wanted to run her own
-    business as real estate investor.  She started investing in real estate before
-    she received her real estate agent license.  This made for a smooth pathway as
-    she had been investing in homes 3 years before receiving her license."
+  intro_body: Broker, Trinie Ortiz Johnson is a dynamic and devoted real estate professional
+    with nearly a decade of experience in the real estate market. After earning a
+    B.A. in Finance and spending 18 years in the construction industry, Trinie felt
+    it was time to make a change. Initially, she began investing in homes in 2010.
+    She quickly fell in love with the industry and was inspired to earn her real estate
+    license a few short years later in 2013.
   intro_align_text: has-text-left
   intro_background_color: "#FFFFFF"
   intro_add_button:
     button_label: Read More
-    intro_button_link: "/about"
+    intro_button_link: "/teams/trinie-johnson/"
     intro_open_in_a_new_tab: false
     intro_button_background_color: "#464646"
     intro_button_text_color: "#E2E2E2"
