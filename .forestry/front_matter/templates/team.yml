@@ -181,4 +181,5 @@ fields:
   template: url
   label: URL
 pages:
+- content/teams/patricia-villegas.md
 - content/teams/trinie-johnson.md
