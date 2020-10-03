@@ -1,7 +1,7 @@
 +++
 title = "Trinie Johnson"
 url = ""
-weight = 50
+weight = 1
 [contact]
 cell = " 210.326.3937"
 email = "trinie@1stindependencerealty.com"
