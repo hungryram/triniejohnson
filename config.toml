@@ -3,6 +3,10 @@ enableRobotsTXT = "true"
 languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
+name = "The Team"
+url = "/teams"
+weight = 6
+[[menu.main]]
 name = "Home Value Request"
 parent = "Buyers & Sellers"
 url = "https://1stindependencerealty.com/home-value-request"
@@ -48,7 +52,7 @@ weight = 4
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 6
+weight = 7
 [taxonomies]
 category = "categories"
 tag = "tags"
