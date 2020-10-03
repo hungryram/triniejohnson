@@ -1,0 +1,66 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column content">
+                <h2 class="title is-3">Meet the team of {{ .Site.Data.profile.primary_company_name }}</h2>
+                <p>Selling a home is often the start of a new chapter. When you invite someone into that story, you
+                    want a partner - not just someone who wants to pad their bottom line.</p>
+                    <p>At 1st Independence Realty, you will never feel like just a transaction; we specialize in customer
+                        service and making every transaction as seamless as possible. As high-touch real estate
+                        professionals, we’re with you through every step of the process to ensure your story has a happy
+                        ending. Simply put, your satisfaction is our bottom line.</p>
+                        <p>As longtime San Antonio residents, we love to share our enthusiasm and knowledge of the
+                            region to inspire you to make our home, your home.</p>
+                            <p>Take a look at the profiles below to learn more about the devoted professionals who help make
+                                our multi-million dollar team a success. We look forward to working with you!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section agent-lists">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8">
+                {{ $paginator := .Paginate (where .Pages "Type" "teams") 5 }}
+                {{ range $paginator.Pages.ByWeight }}
+                <div class="box">
+                  <div class="columns">
+                    <div class="column is-4">
+                      <figure class="image">
+                        {{ with .Params.details.agent_photo }}
+                      <img src="{{ . }}" alt="" style="object-fit: cover;height:200px;width:200px;margin: 0 auto;">
+                        {{else }}
+                        <img src="/assets/avatar.jpg" alt="Placeholder" style="object-fit: cover;height:200px;width:200px;margin: 0 auto;">
+                        {{end}}
+                    </figure>
+                    </div>
+                    <div class="column agent-list-content">
+                      <div class="content">
+                          <h1 class="title is-4 mb-0">{{ .Params.title }}</h1>
+                          <small>{{ .Params.details.title }}</small>
+                        <ul class="agent-list-contact">
+                          {{ if .Params.contact.cell }}<li><strong>Mobile: </strong> {{ .Params.contact.cell }}</li>{{ end }}
+                          {{ if .Params.contact.email }}<li><strong>Email: </strong> {{ .Params.contact.email }}</li>{{ end }}
+                          {{ if .Params.contact.phone }}<li><strong>Phone: </strong> {{ .Params.contact.phone }}</li>{{ end }}
+                        </ul>
+                        <ul class="agent-list-social">
+                          {{ if .Params.social_media.facebook }}<li><a href="{{ .Params.social_media.facebook }}" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>{{ end }}
+                          {{ if .Params.social_media.instagram }}<li><a href="{{ .Params.social_media.instagram }}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>{{ end }}
+                          {{ if .Params.social_media.linkedin }}<li><a href="{{ .Params.social_media.linkedin }}" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>{{ end }}
+                          {{ if .Params.social_media.pinterest }}<li><a href="{{ .Params.social_media.pinterest }}" target="_blank" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>{{ end }}
+                        </ul>
+                      </div>
+                      <a href="{{ .Permalink }}" class="button main-btn">Read More</a>
+                    </div>
+                  </div>
+                </div> <!-- end box -->
+              {{ end }}
+              {{ partial "pagination" . }}
+              </div>
+            {{ partial "sidebar.html" . }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
