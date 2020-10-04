@@ -8,7 +8,7 @@ email = ""
 fax = ""
 phone = ""
 [details]
-agent_photo = ""
+agent_photo = "/uploads/patricia.jpg"
 languages = []
 license_number = ""
 license_type = ""
