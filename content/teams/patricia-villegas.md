@@ -3,8 +3,8 @@ title = "Patricia Villegas"
 url = ""
 weight = 50
 [contact]
-cell = ""
-email = ""
+cell = "210-689-9596"
+email = "Pcvintexas@gmail.com"
 fax = ""
 phone = ""
 [details]
