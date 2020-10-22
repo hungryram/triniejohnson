@@ -9,12 +9,12 @@ fax = ""
 phone = ""
 [details]
 agent_photo = "/uploads/patricia.jpg"
-languages = []
+languages = ["Spanish"]
 license_number = ""
 license_type = ""
 office = []
 specialty = []
-title = ""
+title = "Realtor"
 website = ""
 [search_engine_optimization]
 meta_description = ""
