@@ -9,7 +9,7 @@ fax = ""
 phone = ""
 [details]
 agent_photo = "/uploads/nancy2-5x7.jpg"
-languages = []
+languages = ["Spanish"]
 license_number = ""
 license_type = ""
 office = []
