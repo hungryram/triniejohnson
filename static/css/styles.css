@@ -1,5 +1,6 @@
 /* DEFAULT LIST.HTML */
 
+
 button.button {
     border: 0!important;
     border-radius: 0;
@@ -218,7 +219,10 @@ i.fab.fa-instagram {
 
 p,
 li,
-a {
+a,
+body p,
+body a,
+body li {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
