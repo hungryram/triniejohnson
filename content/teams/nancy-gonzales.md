@@ -8,7 +8,7 @@ email = "nancygonzales0710@gmail.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "/uploads/nancy2-5x7.jpg"
+agent_photo = "/uploads/nancycropped.jpg"
 languages = ["Spanish"]
 license_number = ""
 license_type = ""
