@@ -11,10 +11,10 @@ phone = ""
 agent_photo = ""
 languages = []
 license_number = ""
-license_type = []
+license_type = ""
 office = []
 specialty = []
-title = ""
+title = "Realtor"
 website = ""
 [search_engine_optimization]
 meta_description = ""
