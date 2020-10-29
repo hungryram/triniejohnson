@@ -181,6 +181,7 @@ fields:
   template: url
   label: URL
 pages:
+- content/teams/brigitte-casrtejon.md
 - content/teams/nancy-gonzales.md
 - content/teams/patricia-villegas.md
 - content/teams/trinie-johnson.md
