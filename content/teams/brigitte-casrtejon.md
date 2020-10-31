@@ -9,7 +9,7 @@ fax = ""
 phone = ""
 [details]
 agent_photo = ""
-languages = []
+languages = ["Spanish"]
 license_number = ""
 license_type = ""
 office = []
