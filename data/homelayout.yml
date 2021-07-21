@@ -4,13 +4,18 @@ slideshow:
   subtitle: 
   link_label: Read More
   link: https://www.hungryram.com
-  image: https://res.cloudinary.com/hungryram19/image/upload/v1605404579/templates/realestate2/slider3_o30w9i_pujrai.jpg
-  body: 
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1626899058/trinie-johnson/1st-independence-realty/couch_czn3ax.jpg
+  body: ''
   enable_white_text: true
 home_sections:
 - template: text-and-image
   heading: Trinie Ortiz Johnson
-  body: Broker, Trinie Ortiz Johnson is a dynamic and devoted real estate professional with nearly a decade of experience in the real estate market. After earning a B.A. in Finance and spending 18 years in the construction industry, Trinie felt it was time to make a change. Initially, she began investing in homes in 2010. She quickly fell in love with the industry and was inspired to earn her real estate license a few short years later in 2013.
+  body: Broker, Trinie Ortiz Johnson is a dynamic and devoted real estate professional
+    with nearly a decade of experience in the real estate market. After earning a
+    B.A. in Finance and spending 18 years in the construction industry, Trinie felt
+    it was time to make a change. Initially, she began investing in homes in 2010.
+    She quickly fell in love with the industry and was inspired to earn her real estate
+    license a few short years later in 2013.
   button: Read more
   button_link: "/our-team"
   image: https://res.cloudinary.com/hungryram19/image/upload/v1626899057/trinie-johnson/1st-independence-realty/triniejohnson_aiv4mp.jpg
