@@ -31,7 +31,7 @@ sidebar:
     latest_posts: ''
   single_property_sidebar: false
 colors:
-  button_background_color: "#0073E1"
+  button_background_color: "#75000E"
   button_text_color: "#FFFFFF"
   links: "#760909"
   accent: "#760909"
