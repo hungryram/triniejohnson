@@ -2,6 +2,10 @@ baseURL = "https://1stindependencerealty.com/"
 enableRobotsTXT = "true"
 languageCode = "en-us"
 summarylength = 20
+[[menu.footer]]
+name = "Featured Listings"
+url = "https://1stindependencerealty.idxhome.com/featured/148201"
+weight = 3
 [[menu.main]]
 name = "Home Value Request"
 parent = "Buyers & Sellers"
@@ -18,14 +22,14 @@ parent = "Property Search"
 url = "http://1stindependencerealty.idxhome.com/listing/search/advanced/148201/25?location=Enter+cities+or+zip+codes&propertyType=SFR%2CCND&minListPrice=&maxListPrice=&squareFeet=&bedrooms=0&bathCount=0&_openHomesOnlyYn=on&_dateRange=on&_virtualTourYn=on"
 weight = 2
 [[menu.main]]
-name = "Search"
-parent = "Property Search"
-url = "https://1stindependencerealty.idxhome.com/homesearch/148201"
-weight = 1
-[[menu.main]]
 name = "Property Organizer"
 parent = "Buyers & Sellers"
 url = "https://1stindependencerealty.idxhome.com/organizer/login/148201"
+weight = 1
+[[menu.main]]
+name = "Search"
+parent = "Property Search"
+url = "https://1stindependencerealty.idxhome.com/homesearch/148201"
 weight = 1
 [[menu.main]]
 name = "The Team"

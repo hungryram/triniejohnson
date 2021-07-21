@@ -3,6 +3,9 @@ body = ""
 meta_description = "View our testimonials at 1st Independence Realty of Texas"
 title = "Our Testimonials"
 title_tag = ""
+[menu.footer]
+name = "Testimonials"
+weight = 2
 [[testimonials]]
 date = ""
 name = "A. Wright"
