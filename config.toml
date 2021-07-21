@@ -4,7 +4,7 @@ languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
 name = "The Team"
-url = "/teams"
+url = "/our-team"
 weight = 6
 [[menu.main]]
 name = "Home Value Request"

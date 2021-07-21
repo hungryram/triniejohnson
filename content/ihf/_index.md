@@ -1,3 +1,3 @@
 +++
-title="Search Homes"
+title = "Search the MLS"
 +++

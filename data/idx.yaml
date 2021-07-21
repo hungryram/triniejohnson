@@ -1,4 +1,7 @@
 ---
-idx_id: 148201
-enable_home_quick_search: true
+ihf_client_id: 148201
 enable_idx: true
+incomplete_subdomain: 1stindependencerealty
+complete_subdomain: ''
+enable_google_recaptcha: true
+google_site_key: 6LcdfpgUAAAAACVR_RRPmjr0AR-qXQcBGdopY1MS

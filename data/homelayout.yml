@@ -1,0 +1,35 @@
+---
+slideshow:
+- heading: 1st Independence Realty
+  subtitle: 
+  link_label: Read More
+  link: https://www.hungryram.com
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1605404579/templates/realestate2/slider3_o30w9i_pujrai.jpg
+  body: 
+  enable_white_text: true
+home_sections:
+- template: text-and-image
+  heading: Trinie Ortiz Johnson
+  body: Broker, Trinie Ortiz Johnson is a dynamic and devoted real estate professional with nearly a decade of experience in the real estate market. After earning a B.A. in Finance and spending 18 years in the construction industry, Trinie felt it was time to make a change. Initially, she began investing in homes in 2010. She quickly fell in love with the industry and was inspired to earn her real estate license a few short years later in 2013.
+  button: Read more
+  button_link: "/our-team"
+  image: https://res.cloudinary.com/hungryram19/image/upload/v1626899057/trinie-johnson/1st-independence-realty/triniejohnson_aiv4mp.jpg
+  image_alt_tag: Trinie Ortiz Johnson
+  image_width: '400'
+- template: text-and-contact-form
+  heading: We help you buy or sell your property quickly
+  body: Engage with our professional real estate agents to sell, buy or rent your
+    home. Get emails directly to your inbox and manage the lead as you wish.
+  background_image: https://res.cloudinary.com/hungryram19/image/upload/v1605403006/templates/realestate2/clean-living-room_b3bubn.jpg
+  form:
+    heading: Send a message
+    body: Engage with our professional real estate agents to sell, buy or rent your
+      home. Get emails directly to your inbox and manage the lead as you wish.
+  background_color: "#424242"
+  enable_white_text: true
+- template: featured-idx-listings
+  heading: VOur Featured Listings
+  body: ''
+- template: home-agent
+  heading: Our Team
+  body: Helpful agents that will guide you in the real estate market
