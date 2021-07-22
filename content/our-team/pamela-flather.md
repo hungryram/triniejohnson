@@ -4,11 +4,11 @@ url = ""
 weight = 50
 [contact]
 cell = "210-392-7194"
-email = ""
+email = "pamela@1stindependencerealty.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "/uploads/pamela.jpg"
+agent_photo = "https://res.cloudinary.com/hungryram19/image/upload/v1626899057/trinie-johnson/1st-independence-realty/pamela_qcvcyl.jpg"
 languages = []
 license_number = ""
 license_type = ""
