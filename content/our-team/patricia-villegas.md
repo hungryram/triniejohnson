@@ -8,7 +8,7 @@ email = "Pcvintexas@gmail.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "/uploads/patricia.jpg"
+agent_photo = "https://res.cloudinary.com/hungryram19/image/upload/v1626899058/trinie-johnson/1st-independence-realty/patricia_jzpq9h.jpg"
 languages = ["Spanish"]
 license_number = ""
 license_type = ""
