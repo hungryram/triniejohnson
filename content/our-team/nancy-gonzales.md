@@ -8,7 +8,7 @@ email = "nancygonzales0710@gmail.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "/uploads/nancycropped.jpg"
+agent_photo = "https://res.cloudinary.com/hungryram19/image/upload/v1626899057/trinie-johnson/1st-independence-realty/nancycropped_hq7d38.jpg"
 languages = ["Spanish"]
 license_number = ""
 license_type = ""
