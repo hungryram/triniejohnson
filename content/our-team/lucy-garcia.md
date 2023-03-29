@@ -3,10 +3,10 @@ title = "Lucy Garcia"
 url = ""
 weight = 50
 [contact]
-cell = ""
+cell = "210-636-1783"
 email = ""
 fax = ""
-phone = "210-636-1783"
+phone = ""
 [details]
 agent_photo = "/lcuy.jpg"
 languages = []
