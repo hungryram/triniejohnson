@@ -14,7 +14,7 @@ license_number = ""
 license_type = ""
 office = []
 specialty = []
-title = ""
+title = "REALTOR"
 website = ""
 [search_engine_optimization]
 meta_description = ""
