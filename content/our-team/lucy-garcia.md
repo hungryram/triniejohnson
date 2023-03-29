@@ -8,7 +8,7 @@ email = ""
 fax = ""
 phone = "210-636-1783"
 [details]
-agent_photo = "https://res.cloudinary.com/hungryram19/image/upload/lcuy.jpg"
+agent_photo = "/lcuy.jpg"
 languages = []
 license_number = ""
 license_type = ""
