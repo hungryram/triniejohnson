@@ -8,7 +8,7 @@ email = "Pcvintexas@gmail.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "uploads/patricia.jpg"
+agent_photo = "/uploads/patricia.jpg"
 languages = ["Spanish"]
 license_number = ""
 license_type = ""
