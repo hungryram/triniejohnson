@@ -92,7 +92,7 @@ sections:
   path: config.toml
   label: Configuration
 upload_dir: static/uploads
-public_path: uploads
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
