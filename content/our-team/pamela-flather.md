@@ -8,7 +8,7 @@ email = "pamela@1stindependencerealty.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "uploads/pamela.jpg"
+agent_photo = "/uploads/pamela.jpg"
 languages = []
 license_number = ""
 license_type = ""
