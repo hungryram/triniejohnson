@@ -14,8 +14,8 @@ footer:
     While we strive to keep information accurate, we do not warrant the accuracy or completeness of the information, text, graphics, links or other items contained within these materials. Please visit our full disclaimer for more information.
 branding:
   site_title: Real Estate
-  logo: https://res.cloudinary.com/hungryram19/image/upload/v1626899056/trinie-johnson/1st-independence-realty/1st-independence_eosmtn.png
-  favicon: https://res.cloudinary.com/hungryram19/image/upload/v1626899056/trinie-johnson/1st-independence-realty/favicon_hluyau.png
+  logo: uploads/1st-independence.png
+  favicon: uploads/favicon.png
 header:
   top_header_color: "#760909"
   header_background_color: "#FFFFFF"
