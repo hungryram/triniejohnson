@@ -22,7 +22,7 @@ header:
   enable_white_text: false
   enable_white_text_top: true
 pages:
-  image: uploads/couch.jpg
+  image: "/uploads/couch.jpg"
 sidebar:
   sidebar:
   - template: side-blog-category
