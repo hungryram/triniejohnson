@@ -8,7 +8,7 @@ email = "trinie@1stindependencerealty.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "uploads/triniejohnson.jpg"
+agent_photo = "/uploads/triniejohnson.jpg"
 languages = []
 license_number = "632922"
 license_type = "License Number"
