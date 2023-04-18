@@ -4,8 +4,8 @@ footer:
     pages: search.md
     quick_links: []
   footer_background_color: "#232733"
-  background_image: uploads/clean-living-room_b3bubn.jpg
-  logo: uploads/1st-independence.png
+  background_image: "/uploads/clean-living-room_b3bubn.jpg"
+  logo: "/uploads/1st-independence.png"
   footer_bio: ''
   enable_black_text: false
   disclaimer: |-
@@ -14,8 +14,8 @@ footer:
     While we strive to keep information accurate, we do not warrant the accuracy or completeness of the information, text, graphics, links or other items contained within these materials. Please visit our full disclaimer for more information.
 branding:
   site_title: Real Estate
-  logo: uploads/1st-independence.png
-  favicon: uploads/favicon.png
+  logo: "/uploads/1st-independence.png"
+  favicon: "/uploads/favicon.png"
 header:
   top_header_color: "#760909"
   header_background_color: "#FFFFFF"
