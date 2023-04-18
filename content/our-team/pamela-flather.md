@@ -8,7 +8,7 @@ email = "pamela@1stindependencerealty.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "https://res.cloudinary.com/hungryram19/image/upload/v1626899057/trinie-johnson/1st-independence-realty/pamela_qcvcyl.jpg"
+agent_photo = "uploads/pamela.jpg"
 languages = []
 license_number = ""
 license_type = ""
