@@ -70,7 +70,7 @@
   {{ end }}
 
   {{ if eq "home-agent" .template }}
-  {{ $agents := where $.Site.RegularPages "Type" "our-team" }}
+  {{ $agents := (where $.Site.RegularPages "Type" "our-team") }}
     <div class="section">
       <div class="container">
         <div class="columns mb-6">
@@ -86,7 +86,7 @@
         <div class="agent-container">
           <div class="team-slide">
         {{ if gt $agents 0 }}
-          {{ range where $.Site.RegularPages "Type" "our-team" }}
+          {{ range first 5 (where $.Site.RegularPages "Type" "our-team") }}
             <a href="{{ .Permalink }}">
               <div class="card ml-2 mr-2 mb-4">
                 <div class="card-image">
