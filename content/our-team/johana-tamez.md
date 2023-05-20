@@ -8,7 +8,7 @@ email = "johanatamez.realtor@gmail.com"
 fax = ""
 phone = "210.429.6751"
 [details]
-agent_photo = ""
+agent_photo = "/uploads/IMG_6242.jpg"
 languages = []
 license_number = ""
 license_type = []
