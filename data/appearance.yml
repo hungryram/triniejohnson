@@ -4,7 +4,7 @@ footer:
     pages: search.md
     quick_links: []
   footer_background_color: "#232733"
-  background_image: "/uploads/clean-living-room_b3bubn.jpg"
+  background_image: "https://www.1stindependencerealty.com/uploads/clean-living-room_b3bubn.jpg"
   logo: "https://www.1stindependencerealty.com/uploads/1st-independence.png"
   footer_bio: ''
   enable_black_text: false
@@ -14,15 +14,15 @@ footer:
     While we strive to keep information accurate, we do not warrant the accuracy or completeness of the information, text, graphics, links or other items contained within these materials. Please visit our full disclaimer for more information.
 branding:
   site_title: Real Estate
-  logo: "/uploads/1st-independence.png"
-  favicon: "/uploads/favicon.png"
+  logo: "https://www.1stindependencerealty.com/uploads/1st-independence.png"
+  favicon: "https://www.1stindependencerealty.com/uploads/favicon.png"
 header:
   top_header_color: "#760909"
   header_background_color: "#FFFFFF"
   enable_white_text: false
   enable_white_text_top: true
 pages:
-  image: "/uploads/couch.jpg"
+  image: "https://www.1stindependencerealty.com/uploads/couch.jpg"
 sidebar:
   sidebar:
   - template: side-blog-category
