@@ -1,5 +1,5 @@
 +++
-title = "William 'Russel' Hartman"
+title = "William 'Russell' Hartman"
 weight = 50
 [contact]
 cell = ""
