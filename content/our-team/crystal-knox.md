@@ -8,7 +8,7 @@ email = "Crystal@sapremier.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = ""
+agent_photo = "/uploads/crystal-knox.jpg"
 languages = []
 license_number = ""
 license_type = []
